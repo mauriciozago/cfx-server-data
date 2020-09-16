@@ -38,7 +38,7 @@ const handlers = {
     {
         count = data.count;
 
-        document.querySelector('.letni h3').innerHTML += emoji[data.type][data.order - 1] || '';
+        document.querySelector('.letni h3').innerHTML += emoji[data.type][data.order] || '';
     },
 
     initFunctionInvoking(data)
